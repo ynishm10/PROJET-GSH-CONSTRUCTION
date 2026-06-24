@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact GSH</title>
+    <link rel="stylesheet" href="public/style.css">
+    <link rel="icon" href="images/GSHblanc - Copie.png">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html"><img src="images/GSHblanc.png" alt="" width="300"></a>
+            </div>
+            <nav>
+                <a href="index.html">Acceuil</a>
+                <a href="service.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contactez-nous</h2>
+        <p>
+            Remplissez le formulaire ci-dessous pour obtenir une soumission gratuite ou pour toute question
+            concernant nos services d'excavation.
+        </p>
+
+        <div class="contact-grid">
+            <!-- Formulaire de contact -->
+            <div>
+                <div class="contact-form-container">
+                    <h3>Demande de soumission</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom complet *</label>
+                            <input type="text" id="name" name="name" required placeholder="Votre nom">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Courriel *</label>
+                            <input type="email" id="email" name="email" required placeholder="votre@courriel.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Téléphone *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="514-123-4567">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service souhaité *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Sélectionnez un service</option>
+                                <option value="excavation">Excavation générale</option>
+                                <option value="drainage">Drain français</option>
+                                <option value="mini-excavation">Travaux en Sous-Oeuvre</option>
+                                <option value="demolition">Entrée d'eau et égout</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Adresse du projet</label>
+                            <input type="text" id="address" name="address" placeholder="Adresse complète">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Description du projet </label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Décrivez votre projet en détail..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn" style="width: 100%;">Envoyer la demande</button>
+
+                    </form>
+                    <p id="status"></p>
+                </div>
+            </div>
+
+            <!-- Informations de contact -->
+            <div>
+                <h3>Nos coordonnées</h3>
+
+                <div style="margin: 2rem 0;">
+                    <div class="contact-info-item">
+                        <div class="icon-circle">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Téléphone</h4>
+                            <p>(438) 528-5749</p>
+                            <p class="small">Réponse 24/7</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="icon-circle">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Courriel</h4>
+                            <p>Gestionprojet.gsh@gmail.com</p>
+                            <p class="small">Réponse sous 24h</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="icon-circle">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Zone de service</h4>
+                            <p>Grand Montréal</p>
+                            <p>Rive-Nord et Rive-sud</p>
+                            <p>Laval et envirans</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="icon-circle">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <div class="contact-info-text">
+                            <h4>Heures d'ouverture</h4>
+                            <p>24h/7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Urgences -->
+                <div class="emergency-box">
+                    <h4>Service d'urgence</h4>
+                    <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+                        Pour les urgences en dehors des heures d'ouverture, contactez-nous au:
+                    </p>
+                    <p class="emergency-phone">(438) 528-5749</p>
+                    <p style="font-size: 0.9rem; margin-top: 0.5rem;">Disponible 24h/7</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pourquoi nous choisir -->
+        <div class="why-choose-grid">
+            <div class="why-choose-item">
+                <div class="why-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h4>Soumission gratuite</h4>
+                <p>Estimation détaillée sans engagement</p>
+            </div>
+
+            <div class="why-choose-item">
+                <div class="why-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h4>Prix compétitifs</h4>
+                <p>Meilleur rapport qualité-prix garanti</p>
+            </div>
+
+            <div class="why-choose-item">
+                <div class="why-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                </div>
+                <h4>Équipe expérimentée</h4>
+                <p>Une équipe préte à s'investir pour vos projets</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-decoration">
+            <div class="decoration-shape-1"></div>
+            <div class="decoration-shape-2"></div>
+        </div>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-left">
+                    <div class="footer-icon">
+                        <img src="images/GSHblanc.png" alt="" width="400">
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.874151982036!2d-73.6493509!3d45.5626235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f7a5b6d4a6b%3A0x2c6d2a2f1c6f3e45!2s8130%20Rue%20Pascal-Gagnon%2C%20Montr%C3%A9al%2C%20QC%20H1P%201Y4%2C%20Canada!5e0!3m2!1sfr!2sca!4v1760000000000"
+                            width="75%">
+                        </iframe>
+                    </div>
+                </div>
+                
+                <a href="https://www.instagram.com/construction_gsh?igsh=MTc3a2xtbGgwOTdlNA=="><img
+                        src="images/insta.png" alt="" class="rs"></a>
+
+            </div>
+            <div class="footer-bottom">
+                © 2025 Construction GSH — Tous droits réservés
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./scripts/send-mail.js"></script> <!-- ajout du script -->
+
+</html>

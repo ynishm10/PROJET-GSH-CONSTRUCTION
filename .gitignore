@@ -1,0 +1,5 @@
+# Dépendances Node.js
+backend/node_modules/
+
+# Variables d'environnement
+backend/.env
