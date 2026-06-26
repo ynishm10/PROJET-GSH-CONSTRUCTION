@@ -41,14 +41,33 @@ nav {
     gap: 2rem;
 }
 
+nav2{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f39c12;
+}
+
 nav a {
+    font-size: 1.2rem;
     color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav2 a {
+    font-size: 1.2rem;
+    color: #2c3e50;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 nav a:hover {
     color: #f39c12;
+}
+
+nav2 a:hover {
+    color: white;
 }
 
 .hero {
